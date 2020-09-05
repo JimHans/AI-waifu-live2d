@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>休息提醒</title>
+	<style>
+		.timers {
+    opacity: 1;
+    margin: -20px 20px;
+    padding: 5px 10px;
+    border: 1px solid rgba(224, 186, 140, 0.62);
+    border-radius: 12px;
+    background-color: rgba(236, 217, 188, 0.9);
+    box-shadow: 0 3px 15px 2px rgba(191, 158, 118, 0.5);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    animation-delay: 5s;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+}
+		</style>
+</head>
+
+<body>
+	<h1> </h1>
+	<h1> </h1>
+	<p id = "time" class="timers"></p>
+	<script>
+		var sleep = function(time) {
+    var startTime = new Date().getTime() + parseInt(time, 10);
+    while(new Date().getTime() < startTime) {}
+    };//延时函数，源自csdn
+		var timer = setInterval(function(){timerelax()},3600000);
+		function timerelax()
+		{
+			var t = "您已经连续使用1h，请离开屏幕，休息一下！休息后请刷新此系统！";
+			document.getElementById("time").innerHTML=t;
+			setTimeout(function(){document.getElementById("time").innerHTML="";},90000);
+			
+			
+		}
+	</script>
+</body>
+</html>

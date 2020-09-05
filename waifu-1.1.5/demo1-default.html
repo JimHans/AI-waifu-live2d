@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="assets/waifu.css?v=1.4.2"/>
+	<!--<script src="assets/autoload.js"></script>-->
+</head>
+<body style="font-family: 'Microsoft YaHei';">
+    
+    
+    <!-- waifu-tips.js 依赖 JQuery 库 -->
+    <script src="assets/jquery.min.js?v=3.3.1"></script>
+    
+    <!-- 实现拖动效果，需引入 JQuery UI -->
+    <script src="assets/jquery-ui.js?v=1.12.1"></script>
+    
+    <div class="waifu" id="NLP0">
+        <div class="waifu-tips" id="NLP1" ></div>
+        <canvas id="live2d" class="live2d"></canvas>
+		<div id= "NLPInfinite"></div >
+        <div class="waifu-tool" id= "NLP2">
+            <span class="fui-home"></span>
+			<span class="fui-NLP" ></span >
+            <span class="fui-chat"></span>
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-info-circle"></span>
+			<span class="fui-moon" ></span>
+			<span class="fui-cross"></span>
+        </div>
+    </div>
+        
+    <script src="assets/waifu-tips.js?v=1.4.2"></script>
+    <script src="assets/live2d.js?v=1.0.5"></script>
+    <script type="text/javascript">
+        /* 可直接修改部分参数，若使用设置文件中参数，请全部注释掉此js块 */
+		//live2d_settings['modelAPI'] = 'https://www.leyoblog.top/live2d-api/';
+        live2d_settings['modelId'] = 4;                  // 默认模型 ID
+        live2d_settings['modelTexturesId'] = 1;         // 默认材质 ID
+        live2d_settings['modelStorage'] = true;         // 储存模型 ID
+        live2d_settings['canCloseLive2d'] = true;       // 隐藏 关闭看板娘 按钮
+        live2d_settings['canTurnToHomePage'] = false;    // 隐藏 返回首页 按钮
+        live2d_settings['waifuSize'] = '300x320';        // 看板娘大小
+        live2d_settings['waifuTipsSize'] = '263x72';    // 提示框大小
+        live2d_settings['waifuFontSize'] = '17px';       // 提示框字体
+        live2d_settings['waifuToolFont'] = '20px';       // 工具栏字体
+        live2d_settings['waifuToolLine'] = '30px';       // 工具栏行高
+        live2d_settings['waifuToolTop'] = '-60px';       // 工具栏顶部边距
+        live2d_settings['waifuDraggable'] = '';    // 拖拽样式
+		live2d_settings['waifuMinWidth'] = 'disable';
+		live2d_settings['showHitokoto'] = true;
+		live2d_settings['showWelcomeMessage'] = true;
+        /* 在 initModel 前添加 */
+        initModel("assets/waifu-tips.json");
+    </script>
+</body>
+</html>
