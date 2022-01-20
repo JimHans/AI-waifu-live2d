@@ -23,6 +23,23 @@
 ###               API新增更多形象（基于https://xiaoyou66.com/ 提供的API）
 ###               修复了杂七杂八的Bug
 
+## 目录结构
+│  demo1-default.html       // 常规引用 Demo
+|  relax.html               // 休息提醒页面
+│
+└─assets
+        autoload.js                     // 自动异步加载
+        flat-ui-icons-regular.eot       // Flat UI 字体
+        flat-ui-icons-regular.svg       // Flat UI 字体
+        flat-ui-icons-regular.ttf       // Flat UI 字体
+        flat-ui-icons-regular.woff      // Flat UI 字体
+        jquery-ui.js                    //自带的jQuery UI库
+        jquert.min.js                   //自带的jQuery核心库
+        live2d.js                       // Live2D 核心
+        waifu-tips.js                   // Live2D 看板娘 核心脚本
+        waifu-tips.json                 // Live2D 看板娘 提示语
+        waifu.css                       // Live2D 看板娘 CSS样式表
+
 ## 使用腾讯云NLP服务自建NLP服务
 此版本本身拥有默认的NLP服务，但在此仍建议你使用自建NLP。注意，自建NLP需要你拥有腾讯云账号并经过实名验证。其它厂商的API暂时不被支持。
 自建NLP方式如下：
