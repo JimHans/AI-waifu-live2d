@@ -38,6 +38,7 @@
 [live2d_demo / ©fghrsh / GPL v2.0][1]  
 [live2d-widget / ©xiazeyu / GPL v2.0][2]
 [live2d_src / ©journey-ad / GPL v2.0][3] 
+
 Live2d Cubism SDK WebGL 2.1 Project & All model authors.
 
 Open sourced under the GPL v2.0 license.
