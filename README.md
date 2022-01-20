@@ -34,8 +34,8 @@
         flat-ui-icons-regular.svg       // Flat UI 字体
         flat-ui-icons-regular.ttf       // Flat UI 字体
         flat-ui-icons-regular.woff      // Flat UI 字体
-        jquery-ui.js                    //自带的jQuery UI库
-        jquert.min.js                   //自带的jQuery核心库
+        jquery-ui.js                    // 自带的jQuery UI库
+        jquert.min.js                   // 自带的jQuery核心库
         live2d.js                       // Live2D 核心
         waifu-tips.js                   // Live2D 看板娘 核心脚本
         waifu-tips.json                 // Live2D 看板娘 提示语
