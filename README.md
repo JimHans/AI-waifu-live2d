@@ -43,11 +43,12 @@
         waifu-tips.json                 // Live2D 看板娘 提示语
         waifu.css                       // Live2D 看板娘 CSS样式表
 ```
-## 食用方法与@fghrsh的修改版本相同
+
+### 食用方法与@fghrsh的修改版本相同
 
 ## 扩展功能：使用腾讯云NLP服务自建看板娘的NLP服务
-此版本本身拥有默认的NLP服务，但在此仍建议你使用自建NLP。注意，自建NLP需要你拥有腾讯云账号并经过实名验证。其它厂商的API暂时不被支持。
-自建NLP方式如下：
+- 此版本本身拥有默认的NLP服务，但在此仍建议你使用自建NLP。注意，自建NLP需要你拥有腾讯云账号并经过实名验证。其它厂商的API暂时不被支持。
+- 自建NLP方式如下：
 #### 1.在腾讯云官方网站https://cloud.tencent.com/ ，点击产品->人工智能->自然语言处理，再点击免费体验，按提示开通NLP免费服务。
 #### 2.点击右上角个人头像->访问管理->访问密钥->API密钥管理，新建一个密钥。注意！为了保障你的账号安全，建议使用子账号创建密钥。具体创建方法详见腾讯云官方最佳实践文档https://cloud.tencent.com/document/product/598/10592 。
 #### 3.创建密钥后，妥善保管你的密钥，切换回自然语言处理的控制台页面，点击管理中心->快速使用->打开工具，选择闲聊板块，代码语言为PHP，将你的密钥按要求填入后，按照你的要求调节参数，最后，将生成的代码复制，粘贴入新的文本文档，保存为xx（你自己的名字）.php，并放入你服务器的自定义目录。
@@ -61,7 +62,7 @@
 [live2d-widget / ©xiazeyu / GPL v2.0][2]  
 [live2d_src / ©journey-ad / GPL v2.0][3] 
 
-Live2d Cubism SDK WebGL 2.1 Project & All model authors.
+- Live2d Cubism SDK WebGL 2.1 Project & All model authors.
 
 Open sourced under the GPL v2.0 license.
 
