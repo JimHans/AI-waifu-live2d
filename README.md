@@ -24,7 +24,7 @@
 ###               修复了杂七杂八的Bug
 
 ## 目录结构
-
+```
 │  demo1-default.html       // 常规引用 Demo
 |  relax.html               // 休息提醒页面
 │
@@ -40,8 +40,10 @@
         waifu-tips.js                   // Live2D 看板娘 核心脚本
         waifu-tips.json                 // Live2D 看板娘 提示语
         waifu.css                       // Live2D 看板娘 CSS样式表
+```
+## 食用方法与@fghrsh的修改版本相同
 
-## 使用腾讯云NLP服务自建NLP服务
+## 扩展功能：使用腾讯云NLP服务自建看板娘的NLP服务
 此版本本身拥有默认的NLP服务，但在此仍建议你使用自建NLP。注意，自建NLP需要你拥有腾讯云账号并经过实名验证。其它厂商的API暂时不被支持。
 自建NLP方式如下：
 #### 1.在腾讯云官方网站https://cloud.tencent.com/ ，点击产品->人工智能->自然语言处理，再点击免费体验，按提示开通NLP免费服务。
