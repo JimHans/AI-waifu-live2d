@@ -24,6 +24,7 @@
 ###               修复了杂七杂八的Bug
 
 ## 目录结构
+
 │  demo1-default.html       // 常规引用 Demo
 |  relax.html               // 休息提醒页面
 │
