@@ -34,4 +34,11 @@
 #### 6.到此处，你的AI看板娘API应该就可以运行了。如果有其他问题，可以查找腾讯云文档解决，或者检查你的composer插件是否安装正确。当然，如果出现403等问题，你也要检查一下文件的权限问题。
 
 
-test
+## 感谢以下项目
+[live2d_src / ©journey-ad / GPL v2.0][1]  
+  
+Open sourced under the GPL v2.0 license.
+
+
+  [1]: https://github.com/fghrsh/live2d_demo
+ 
