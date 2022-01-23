@@ -3,7 +3,7 @@
     く__,.ヘヽ.　　　　/　,ー､ 〉
     　　　　　＼ ', !-─‐-i　/　/´        ver.   || |
     　　　 　 ／｀ｰ'　　　 L/／｀ヽ､            | | ||         Live2D 看板娘 AI Version 前端&后端API封装
-    　　 　 /　 ／,　 /|　 ,　 ,　　　 ',     ||||| |||        Version 1.0.7 (Based on FGHRSH Version V1.4.2)
+    　　 　 /　 ／,　 /|　 ,　 ,　　　 ',     ||||| |||        Version 1.1.5 (Based on FGHRSH Version V1.4.2)
     　　　ｲ 　/ /-‐/　ｉ　L_ ﾊ ヽ!　 i      ||    | ||||       Update 2020-08-19 Modified By JimHan From the FGHRSH Version
     　　　 ﾚ ﾍ 7ｲ｀ﾄ　 ﾚ'ｧ-ﾄ､!ハ|　 |
     　　　　 !,/7 '0'　　 ´0iソ| 　 |                           1.1.5版本基于FGHRSH V1.4.2版本魔改
