@@ -3,10 +3,10 @@
     く__,.ヘヽ.　　　　/　,ー､ 〉
     　　　　　＼ ', !-─‐-i　/　/´        ver.   || |
     　　　 　 ／｀ｰ'　　　 L/／｀ヽ､            | | ||         Live2D 看板娘 AI Version 前端&后端API封装
-    　　 　 /　 ／,　 /|　 ,　 ,　　　 ',     ||||| |||        Version 1.1.5 (Based on FGHRSH Version V1.4.2)
+    　　 　 /　 ／,　 /|　 ,　 ,　　　 ',     ||||| |||        Version 1.6.0 (Based on FGHRSH Version V1.4.2)
     　　　ｲ 　/ /-‐/　ｉ　L_ ﾊ ヽ!　 i      ||    | ||||       Update 2020-08-19 Modified By JimHan From the FGHRSH Version
     　　　 ﾚ ﾍ 7ｲ｀ﾄ　 ﾚ'ｧ-ﾄ､!ハ|　 |
-    　　　　 !,/7 '0'　　 ´0iソ| 　 |                           1.1.5版本基于FGHRSH V1.4.2版本魔改
+    　　　　 !,/7 '0'　　 ´0iソ| 　 |                           1.6.0版本基于FGHRSH V1.4.2版本魔改
     　　　　 |.从"　　_　　 ,,,, / |./ 　 |                     原版地址https://github.com/fghrsh/live2d_demo 具体食用方法参照原版
     　　　　 ﾚ'| i＞.､,,__　_,.イ / 　.i 　|                    更新日期2020-08-19，若要使用自建NLP请参照下方“使用腾讯云NLP服务自建NLP服务”
     　　　　　 ﾚ'| | / k_７_/ﾚ'ヽ,　ﾊ.　|
@@ -17,6 +17,12 @@
     　　　　　　 ﾚ'ヽL__|___i,___,ンﾚ|ノ
     　　　　　 　　　ﾄ-,/　|___./
     　　　　　 　　　'ｰ'　　!_,.:
+
+### 1.6.0版本更新：
+- 新增了定时提醒功能，可以设定指定时间进行提醒
+- 优化了左边栏显示
+- 优化了代码结构与缩进规范
+- 修复了杂七杂八的Bug
 
 ### 1.1.5版本更新：
 - 新增了动态的交互窗口，使主题更契合
@@ -29,6 +35,7 @@
 ```
 │  demo1-default.html       // 常规引用 Demo
 |  relax.html               // 休息提醒页面
+|  live2d-api.zip           //Live 2d自建API打包文件
 │
 └─assets
         autoload.js                     // 自动异步加载
@@ -42,6 +49,8 @@
         waifu-tips.js                   // Live2D 看板娘 核心脚本
         waifu-tips.json                 // Live2D 看板娘 提示语
         waifu.css                       // Live2D 看板娘 CSS样式表
+|
+└─Alert Alarms                          //元素动态铃声存储
 ```
 
 ### 食用方法与@fghrsh的修改版本相同
